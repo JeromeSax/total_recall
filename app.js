@@ -12,18 +12,18 @@
 // console.log(hello);
 
 // 1.
-// var firstVariable = "Hello World";
-//  firstVariable =  1;
-//  let secondVariable = firstVariable;
-//  secondVariable = "any string";
+var firstVariable = "Hello World";
+ firstVariable =  1;
+ let secondVariable = firstVariable;
+ secondVariable = "any string";
 
-//  console.log(firstVariable);
+ console.log(firstVariable);
 
 
 // //  2.
-// const yourName = "Jerome";
-// let hey = "Hello my name is Jerome";
-// console.log(hey);
+const yourName = "Jerome";
+let hey = "Hello my name is Jerome";
+console.log(hey);
 
 
 
@@ -40,15 +40,15 @@
 // console.log('Name' == 'Name');
 
 // 1. 
-// const a = 4;
-// const b = 53;
-// const c = 57;
-// const d = 16;
-// const e = 'Kevin';
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
 
-// console.log(a < b);
-// console.log(c > d);
-// console.log(e == 'Kevin');
+console.log(a < b);
+console.log(c > d);
+console.log(e == 'Kevin');
 
 // //FOR THE NEXT TWO, USE ONLY && OR ||
 // console.log(true || false); 
@@ -61,18 +61,28 @@
 
 
 //the Farm
-let animal = "cow";
+// let animal = "cow";
 
-const moo = (a) => {
-   return a.toLowerCase === "cow"? "mooooo" : "hey, that's not a cow"
-} 
+// const moo = (a) => {
+//    return a.toLowerCase === "cow"? "mooooo" : "hey, that's not a cow"
+// } 
 
-console.log(moo(animal));
+// console.log(moo(animal));
+
 //Driver's Ed
+let driver = false;
+const age = 16;
+if (age >= 16) {
+   driver = true;
+}
+console.log(driver);
+
 
 //LOOPS
 
 //The Basics
+// 1.
+
 
 //Get Even
 
