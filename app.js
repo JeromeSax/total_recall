@@ -22,7 +22,7 @@ var firstVariable = "Hello World";
 
 // //  2.
 const yourName = "Jerome";
-let hey = "Hello my name is Jerome";
+let hey = "Hello my name is Jerome!";
 console.log(hey);
 
 
@@ -70,18 +70,35 @@ console.log(e == 'Kevin');
 // console.log(moo(animal));
 
 //Driver's Ed
-let driver = false;
-const age = 16;
-if (age >= 16) {
-   driver = true;
+// let driver = false;
+// const age = 16;
+// if (age >= 16) {
+//    driver = true;
+// }
+// console.log(driver);
+let age = 16 ;
+const person = "John Doe";
+function myFunction(person) {
+if (person >= 16) {
+   return("Here are the keys");
+} else {
+   return("Sorry you're too young");
+ }
 }
-console.log(driver);
+console.log(myFunction(person));
+
+
 
 
 //LOOPS
 
 //The Basics
-// 1.
+// 1. - Write a loop that will print out all the numbers from 0 to 10, inclusive
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < 10; i++); {
+   
+}
+console.log(num);
 
 
 //Get Even
