@@ -204,6 +204,46 @@ if ( myNum < 5) {
    console.log("monkey");
 }
 
+const kristynsCloset = [
+   "left shoe",
+   "cowboy boots",
+   "right sock",
+   "GA hoodie",
+   "green pants",
+   "yellow knit hat",
+   "marshmallow peeps"
+ ];
+ console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+ kristynsCloset.splice(6, 0, "raybans");
+ kristynsCloset.splice(5, 1, "stained knit hat" );
+
+
+ const thomsCloset = [
+   [
+     // These are Thom's shirts
+     "grey button-up",
+     "dark grey button-up",
+     "light blue button-up",
+     "blue button-up",
+   ],[
+     // These are Thom's pants
+     "grey jeans",
+     "jeans",
+     "PJs"
+   ],[
+     // Thom's accessories
+     "wool mittens",
+     "wool scarf",
+     "raybans"
+   ]
+ ];
+ let shirt = thomsCloset [0][0]
+ let x = thomsCloset [1][0]
+ let y = thomsCloset [2][0]
+ console.log(`Thom is looking fierce in a  with ${shirt} with ${x} with ${y} `);
+ 
+
+
 //OBJECTS
 
 
