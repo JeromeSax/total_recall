@@ -240,8 +240,16 @@ const kristynsCloset = [
  let shirt = thomsCloset [0][0]
  let x = thomsCloset [1][0]
  let y = thomsCloset [2][0]
- console.log(`Thom is looking fierce in a  with ${shirt} with ${x} with ${y} `);
- 
+ console.log(`Thom is looking fierce in a  ${shirt} with ${x} with ${y} `);
+
+thomsCloset [1][2] = "Footie Pajamas"
+
+function printGreetingwith  (name)  {
+   return "Hey there " + name 
+}
+console.log(printGreetingwith("john"));
+
+
 
 
 //OBJECTS
