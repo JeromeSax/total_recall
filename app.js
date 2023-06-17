@@ -189,8 +189,19 @@ console.log(myArray);
 // - `console.log()s` "little number" if the number is entered is less than 100
 // - `console.log()s` "big number" if the number is greater than or equal to 100.
 let myNum = 1;
-if (1 < 100) {
-   console.log(myNum + " little number if the number is entered is less than 100");
+if (myNum < 100) {
+   console.log("little number");
+} else {
+   console.log("big number");
+}
+
+// Monkey in the middle
+if ( myNum < 5) {
+   console.log("little number");
+} else if (myNum > 10) {
+   console.log("big number");
+} else {
+   console.log("monkey");
 }
 
 //OBJECTS
