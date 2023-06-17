@@ -249,8 +249,27 @@ function printGreetingwith  (name)  {
 }
 console.log(printGreetingwith("john"));
 
+function printCoolthat (name) {
+   return "You are so cool " + name
+}
+console.log(printCoolthat("Jerome"));
 
 
+function calculateCubethat (a) {
+   volume = a * a * a
+}
+console.log(calculateCubethat(5));
+
+const isVowelThat = function(letter) {
+   let vowels = ["a", "e", "i", "o", "u"];
+   letter.toLowerCase() 
+   if(vowels.includes(letter) ) {
+      return true;
+   } else {
+      return false;
+   }
+}
+console.log(isVowelThat("e"));
 
 //OBJECTS
 
