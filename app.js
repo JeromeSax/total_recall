@@ -12,18 +12,18 @@
 // console.log(hello);
 
 // 1.
-var firstVariable = "Hello World";
- firstVariable =  1;
- let secondVariable = firstVariable;
- secondVariable = "any string";
+// var firstVariable = "Hello World";
+//  firstVariable =  1;
+//  let secondVariable = firstVariable;
+//  secondVariable = "any string";
 
- console.log(firstVariable);
+//  console.log(firstVariable);
 
 
 // //  2.
-const yourName = "Jerome";
-let hey = "Hello my name is Jerome!";
-console.log(hey);
+// const yourName = "Jerome";
+// let hey = "Hello my name is Jerome!";
+// console.log(hey);
 
 
 
@@ -40,15 +40,15 @@ console.log(hey);
 // console.log('Name' == 'Name');
 
 // 1. 
-const a = 4;
-const b = 53;
-const c = 57;
-const d = 16;
-const e = 'Kevin';
+// const a = 4;
+// const b = 53;
+// const c = 57;
+// const d = 16;
+// const e = 'Kevin';
 
-console.log(a < b);
-console.log(c > d);
-console.log(e == 'Kevin');
+// console.log(a < b);
+// console.log(c > d);
+// console.log(e == 'Kevin');
 
 // //FOR THE NEXT TWO, USE ONLY && OR ||
 // console.log(true || false); 
@@ -172,8 +172,22 @@ You could model cars with an array*/
 // - Remove the string of your choice from the end of the array.
 // - Reverse this array using `Array.prototype.reverse()`. 
 // - Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+const myArray = [5, 10, 500, 20];
+myArray.push = "Aegon";
+myArray.pop = [0];
+myArray.unshift = "Bob Marley";
+myArray.shift = [3];
+myArray.reverse();
+console.log(myArray);
 
+// ### F. Biggie Smalls
 
+// Create a variable that contains an integer.
+
+// Write an `if ... else` statement that:
+
+// - `console.log()s` "little number" if the number is entered is less than 100
+// - `console.log()s` "big number" if the number is greater than or equal to 100.
 
 //OBJECTS
 
