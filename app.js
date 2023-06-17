@@ -188,6 +188,10 @@ console.log(myArray);
 
 // - `console.log()s` "little number" if the number is entered is less than 100
 // - `console.log()s` "big number" if the number is greater than or equal to 100.
+let myNum = 1;
+if (1 < 100) {
+   console.log(myNum + " little number if the number is entered is less than 100");
+}
 
 //OBJECTS
 
