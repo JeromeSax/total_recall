@@ -296,6 +296,10 @@ const getMultipleLengthsThat = (arr) => {
 }
 console.log(getMultipleLengthsThat(["hello", "what", "is", "up", "dude"]));
 
+// ### G. maxOfThree
+
+function maxOfThree
+
 //OBJECTS
 
 
