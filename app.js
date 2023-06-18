@@ -285,6 +285,16 @@ const getTwoLengths = (word1, word2) => {
 }
 console.log(getTwoLengths("Hank", "Hippopopalous"));
 
+// ### F. getMultipleLengths
+
+const getMultipleLengthsThat = (arr) => {
+   const multipleLengths = [];
+   for (let i = 0; i < arr.length; i++) {
+      multipleLengths.push(arr[i].length);
+   }
+   return multipleLengths;
+}
+console.log(getMultipleLengthsThat(["hello", "what", "is", "up", "dude"]));
 
 //OBJECTS
 
