@@ -272,6 +272,20 @@ const isVowelThat = function(letter) {
 }
 console.log(isVowelThat("e"));
 
+// ### E. getTwoLengths
+
+// Write a function `getTwoLengthsthat` accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+// `console.log(getTwoLengths("Hank", "Hippopopalous"));`
+// `=> [4, 13]`
+
+const getTwoLengths = (word1, word2) => {
+   const getLength = [word1.length, word2.length];
+   return getLength
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+
 //OBJECTS
 
 
